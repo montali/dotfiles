@@ -2,7 +2,7 @@ echo "I'll need your password probably. Let's solve this at the root.✨"
 
 sudo -V
 
-brew install zsh-syntax-highlighting mongodb python3 wget tracert ImageMagick fortune cowsay libnfc automake pkg-config texlive mactex-no-gui skim graphviz httrack weechat openssl telnet nmap httpie iperf cdrtools bat hub tree pygments autojump tmux ipython chromedriver
+brew install zsh-syntax-highlighting mongodb python3 wget tracert ImageMagick fortune cowsay libnfc automake pkg-config texlive mactex-no-gui skim graphviz httrack weechat openssl telnet nmap httpie iperf cdrtools bat hub tree pygments autojump tmux ipython chromedriver geckodriver
 
 brew install zsh-syntax-highlighting python3 wget ImageMagick fortune cowsay libnfc automake pkg-config mactex-no-gui graphviz httrack weechat openssl telnet nmap httpie iperf cdrtools bat hub tree pygments autojump tmux ipython
 
