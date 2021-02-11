@@ -4,7 +4,7 @@ sudo -V
 
 brew install zsh-syntax-highlighting mongodb python3 wget tracert ImageMagick fortune cowsay libnfc automake pk
 ~                                                                                                                      │g-config texlive mactex-no-gui skim graphviz httrack weechat openssl telnet nmap httpie iperf cdrtools bat hub tree py
-~                                                                                                                      │gments autojump tmux ipython
+~                                                                                                                      │gments autojump tmux ipython chromedriver
 
 brew install zsh-syntax-highlighting python3 wget ImageMagick fortune cowsay libnfc automake pkg-config mactex-
 ~                                                                                                                      │no-gui graphviz httrack weechat openssl telnet nmap httpie iperf cdrtools bat hub tree pygments autojump tmux ipython
