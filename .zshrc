@@ -163,6 +163,8 @@ alias mergepdf='gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=_merged.p
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
+# Create a SOCKS5 proxy to use with telegram
+alias socksup="ssh -D 1337 -q -C -N -f aldo"
 # Create a new directory and enter it
 function mkd() {
 	mkdir -p "$@" && cd "$_";
@@ -185,6 +187,12 @@ alias redis-start="redis-server /usr/local/etc/redis.conf"
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
   [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+# Conda env create script
+createenv() {
+	yes | ~/.conda-jupyter-create $1
+}
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

@@ -1,0 +1,7 @@
+#!/usr/bin/env zsh
+source /opt/anaconda3/etc/profile.d/conda.sh
+conda activate my_env
+conda create --name $1 python=3.9
+conda activate $1
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=$1
